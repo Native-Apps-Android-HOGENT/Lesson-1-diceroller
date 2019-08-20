@@ -29,7 +29,7 @@ class PressButtonTest {
     @Test
     fun pressButton(){
         onView(withId(R.id.roll_button))
-        onView(withId(R.id.dice_image)).check(matches(isDisplayed()));
+        onView(withId(R.id.dice_image)).check(matches(isDisplayed()))
     }
 
 }

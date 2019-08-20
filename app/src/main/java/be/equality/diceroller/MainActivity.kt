@@ -4,17 +4,17 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
-import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
 
-    val randomRoller = RandomRoller(1,6)
+    private val randomRoller = RandomRoller(1,6)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        roll_button.text = "Let's Roll"
+        roll_button.text = getString(R.string.lets_roll)
         roll_button.setOnClickListener {
             rollDice()
             Timber.i("Pressed the button")
