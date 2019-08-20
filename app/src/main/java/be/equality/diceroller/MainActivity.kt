@@ -8,6 +8,8 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
+    val randomRoller = RandomRoller(1,6)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -26,7 +28,7 @@ class MainActivity : AppCompatActivity() {
      * Generates a random integer and assigns its value to the TextView.
      */
     private fun rollDice() {
-        val drawableResource = when (Random().nextInt(6) + 1) {
+        val drawableResource = when (randomRoller.roll()) {
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
