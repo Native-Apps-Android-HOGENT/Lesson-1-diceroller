@@ -2,8 +2,6 @@ package be.equality.diceroller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
 import java.util.*
