@@ -18,9 +18,9 @@ and that will allow finding views from
  
  in a seamless way, without using the `findViewById` method.
 
-+++
++++?code=app/build.gradle&lang=groovy
 
----?code=app/build.gradle&lang=groovy
++++?code=app/src/main/java/be/equality/diceroller/MainActivity.kt&lang=kotlin
 
 ---
 
