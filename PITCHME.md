@@ -3,8 +3,9 @@
 ---
 ### Before you start
 
-Make sure you have completed the lesson from Udacity. This slide deck includes some extra features
-which are interesting for future Android Projects. 
+Make sure you have completed the lesson from [Udacity](https://classroom.udacity.com/courses/ud9012).
+ 
+This slide deck includes some extra features which are interesting for future Android Projects. 
 
 ---
 ### Say goodbye to `findViewById()`
@@ -24,46 +25,60 @@ and that will allow finding views from
 
 ---
 ### Logging
-The Logcat window in Android Studio displays system messages, such as when a garbage collection
-occurs, and messages that you added to your app with the Log class. 
+The Logcat window in Android Studio displays system messages, such as
+
+- garbage collection messages
+- UI messages
+- messages that you added to your app with the Log class. 
+
 It displays messages in real time and keeps a history so you can view older messages.
+
++++
 
 Using the logger is displayed [here](https://developer.android.com/studio/debug/am-logcat). 
 
 +++
 
-Make sure to apply the best practice, which is to remove all logging functionality as soon as
-the module or feature is fully implemented and thoroughly tested, before deployment to production.
+Make sure to apply the **best practice**: 
+
+remove all logging functionality as soon as the feature is fully implemented and thoroughly tested, before deployment to production.
 
 +++
 
 To enable your logs statements calls only during development phase,
-Android offers you the `BuildConfig.DEBUG` property. This flag is set 
-automatically to false when an application is deployed into an Android Application Package (APK)
-for production and then, its set back to true during development.
+Android offers you the `BuildConfig.DEBUG` property. 
+
+This flag is set automatically to false when an application is deployed into an Android Application Package (APK)
+for production and is set back to `true` during development.
 
 ---
 ### TIMBER
 
 There is a simple library called Timber which can log your messages and gives you the control 
 over the flow of logs. Timber is a library developed by developer Jake Wharton, 
-who has made a lot of interesting and helfpfull libraries.
+who has made a lot of interesting and helpful libraries.
+
++++
 
 We refer to [this site](https://github.com/JakeWharton/timber) to see on how to use this library.
 
 
 +++
 
-You can see that an extra class has been created, which extends `Application`. 
-This is a base class for maintaining global application state. 
-You can provide your own implementation by creating a subclass and specifying the 
+Check out `DiceRollerpp` which extends `Application`. 
+
+- This is a base class for maintaining global application state. 
+- You can provide your own implementation by creating a subclass and specifying the 
 fully-qualified name of this subclass as the `"android:name"` attribute in your 
-Manifest’s `<application>` tag. The Application class, or your subclass of the Application class,
-is instantiated before any other class when the process for your application/package is created.
+Manifest’s `<application>` tag. 
+- Your subclass of the Application class is instantiated before any other class when 
+the process for your application/package is created.
 
 +++?code=app/src/main/AndroidManifest.xml&lang=xml
 
 +++?code=app/src/main/java/be/equality/diceroller/DiceRollerApp.kt&lang=kotlin
+
+---
 
 ### Versioning
 
