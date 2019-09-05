@@ -41,7 +41,7 @@ Using the logger is displayed [here](https://developer.android.com/studio/debug/
 
 Make sure to apply the **best practice**: 
 
-remove all logging functionality as soon as the feature is fully implemented and thoroughly tested, before deployment to production.
+@quote[remove all logging functionality as soon as the feature is fully implemented and thoroughly tested, before deployment to production.]
 
 +++
 
