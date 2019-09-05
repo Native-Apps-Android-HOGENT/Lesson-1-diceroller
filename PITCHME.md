@@ -7,18 +7,18 @@
 ![Android logo](assets/img/logo.jpeg)
 @snap[north span-100 text-08]
 ---
-@snap[north span-100 text-08]
+
 ## Before you start
-@snapend
+
 
 Make sure you have completed the lesson from [Udacity](https://classroom.udacity.com/courses/ud9012).
  
 This slide deck includes some extra features which are interesting for future Android Projects. 
 
 ---
-@snap[north span-100 text-08]
+
 ## Say goodbye to `findViewById()`
-@snap[north span-100 text-08]
+
 
 
 **Kotlin Android Extensions** are a Kotlin plugin that is included in the regular one,
@@ -35,9 +35,9 @@ and that will allow finding views from
 +++?code=app/src/main/java/be/equality/diceroller/MainActivity.kt&lang=kotlin
 
 ---
-@snap[north span-100 text-08]
+
 ## Logging
-@snapend
+
 
 
 The Logcat window in Android Studio displays system messages, such as
@@ -67,9 +67,9 @@ This flag is set automatically to false when an application is deployed into an 
 for production and is set back to `true` during development.
 
 ---
-@snap[north span-100 text-08]
+
 ## TIMBER
-@snapend
+
 
 There is a simple library called Timber which can log your messages and gives you the control 
 over the flow of logs. Timber is a library developed by developer Jake Wharton, 
@@ -96,9 +96,9 @@ the process for your application/package is created.
 +++?code=app/src/main/java/be/equality/diceroller/DiceRollerApp.kt&lang=kotlin
 
 ---
-@snap[north span-100 text-08]
+
 ## Versioning
-@snapend
+
 We want to make distinctions between the different versions of our application.
 Semantic Versioning (SemVer) is a universal way of versioning software development projects.
 
