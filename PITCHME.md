@@ -18,4 +18,16 @@ and that will allow finding views from
  
  in a seamless way, without using the `findViewById` method.
 
++++
+
+### 
+
+---?code=app/build.gradle&lang=groovy
+
+@snap[north span-100]
+#### Source Code Delimiter
+@snapend
+
+
+
 # End of the presentation
