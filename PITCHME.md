@@ -4,7 +4,7 @@
 # DiceRoller
 
 @snap[south span-40 text-gray text-05]
-![KEYBOARD](assets/img/logo.jpeg)
+![Android logo](assets/img/logo.jpeg)
 @snap[north span-100 text-08]
 ---
 @snap[north span-100 text-08]
