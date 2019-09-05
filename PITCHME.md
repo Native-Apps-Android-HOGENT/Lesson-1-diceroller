@@ -20,14 +20,9 @@ and that will allow finding views from
 
 +++
 
-### 
-
 ---?code=app/build.gradle&lang=groovy
 
-@snap[north span-100]
-#### Source Code Delimiter
-@snapend
-
+---
 
 
 # End of the presentation
