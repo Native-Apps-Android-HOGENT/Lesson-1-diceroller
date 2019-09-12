@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Linting') {
             steps {
-                sh './gradlew ktlint'
+                sh './gradlew lint'
             }
         }
         stage('Build') {
