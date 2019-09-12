@@ -1,3 +1,5 @@
+[![Build Status](http://107.178.214.77/jenkins/buildStatus/icon?job=diceroller%2Fmaster)](http://107.178.214.77/jenkins/job/diceroller/job/master/)
+
 # Dice Roller
 
 This is a simple application which allows the user to simulate a dice. The user is able to roll
