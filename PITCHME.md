@@ -105,4 +105,9 @@ Semantic Versioning (SemVer) is a universal way of versioning software developme
 One way of doing this in Android: [check out this artile](https://medium.com/@maxirosson/versioning-android-apps-d6ec171cfd82)
 
 +++?code=build.gradle&lang=groovy
+
+---
+Jens Buysse, Harm De Weirdt
+
+University College Ghent
  
