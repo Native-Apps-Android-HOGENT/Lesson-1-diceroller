@@ -38,7 +38,16 @@ Checkout the repository, build the APK using Android Studio and test on your phy
 * [Android Studio](https://developer.android.com/studio) - The IDE used
 * [Gradle](https://gradle.org/) - Build system
 
+## Generating the slideset
 
+We use [Pandoc](https://pandoc.org/index.html) together with [Reveal.js](https://pandoc.org/index.html) to generate the slides.
+
+- To generate your setup, follow this [tutorial](https://github.com/jgm/pandoc/wiki/Using-pandoc-to-produce-reveal.js-slides) 
+- To generate the slides, `cd` into the slides directory and run the following code:
+
+```bash
+pandoc -t revealjs -s -o slides.html slides.md -V revealjs-url=./reveal.js
+```
 
 ## Versioning
 
