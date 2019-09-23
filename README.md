@@ -1,4 +1,4 @@
-[![Build Status](http://35.224.240.121/jenkins/buildStatus/icon?job=diceroller%2Fmaster)](http://107.178.214.77/jenkins/job/diceroller/job/master/)
+[![Build Status](http://35.224.240.121/jenkins/buildStatus/icon?job=diceroller%2Fmaster)](http://35.224.240.121/jenkins/job/diceroller/job/master/)
 
 # Dice Roller
 
