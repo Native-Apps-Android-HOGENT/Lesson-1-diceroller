@@ -17,6 +17,8 @@ import org.hamcrest.TypeSafeMatcher
  * @see [Source1][https://github.com/stablekernel/EspressoLib/blob/master/src/main/java/com/stablekernel/espressolib/DrawableMatcher.java]
  *
  * @see [Source2][http://stackoverflow.com/questions/33696488/getting-bitmap-from-vector-drawable]
+ *
+ * Convenient class which checks that the drawable has a non-null value of a specific type.
  */
 class DrawableMatcher(@param:DrawableRes private val expectedResourceId: Int) :
     TypeSafeMatcher<View>(View::class.java) {

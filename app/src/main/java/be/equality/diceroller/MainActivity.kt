@@ -1,7 +1,7 @@
 package be.equality.diceroller
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
 import timber.log.Timber
@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         roll_button.text = getString(R.string.lets_roll)
+
+        // Not sure how to work with Lambda's: check out
+        // https://antonioleiva.com/lambdas-kotlin-android/
         roll_button.setOnClickListener {
             rollDice()
             Timber.i("Pressed the button")
